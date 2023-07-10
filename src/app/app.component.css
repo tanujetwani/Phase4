@@ -1,0 +1,12 @@
+.inactive{
+    text-decoration:none;
+    cursor:default;
+    color:grey;
+    pointer-events:none;
+}
+
+.active{
+
+   color:Red;
+
+}

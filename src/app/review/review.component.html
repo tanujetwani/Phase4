@@ -1,0 +1,19 @@
+<h2>Your Answers are as below:</h2> 
+
+<table border="1">
+    
+    <tr *ngFor="let c of quizanswers ; index as i">
+     <td>Question{{i+1}}</td>   
+    <td> {{c}} </td>
+    </tr>
+
+    </table>
+
+  <!--   <h3>Click on Review Answers button below to get the result</h3>
+    <br><br><button (click)="checkAnswers()">Review Answers</button> 
+    
+    <div *ngIf="checkanswer">
+    <h3>your score is {{rscore}}</h3>
+
+    -->
+

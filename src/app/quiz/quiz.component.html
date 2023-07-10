@@ -1,0 +1,27 @@
+
+<h1>Quiz Demo</h1>
+<!--<h3>Value of currentQuestionIndex is {{currentQuestionIndex}}</h3> -->
+
+<div *ngIf="questions">  
+
+    <h2>{{questions[currentQuestionIndex]?.question}}</h2>
+
+    <ul type="none">
+        <li *ngFor="let choice of questions[currentQuestionIndex]?.choices">
+            <label>
+            <input type="radio" name="answer" value="choice" (change)="pushAnswer(choice)">{{choice}}
+
+            </label>
+        </li>
+        </ul>
+
+        <button (click)="nextcurrentIndex()">Next</button>
+
+                      
+       <h3>{{message}}</h3>
+      <!-- <h3>{{message1}}</h3> -->
+
+
+</div>
+
+

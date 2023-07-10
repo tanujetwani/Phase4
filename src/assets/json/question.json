@@ -1,0 +1,72 @@
+{
+
+   "questions": [
+
+    {   
+
+    "question": "What is the capital of France?",
+    "choices": ["London","Paris","Rome","Berlin"]
+
+    },
+
+    {
+     "question" : "Which is the capital of India?",
+     "choices" : ["Bihar","Karnataka","uttarPradesh","Delhi"]
+
+    },
+
+    {
+
+     "question" : "Which is a prime number?",
+     "choices" : ["1","4","8","9"]
+
+    },
+
+    {
+
+     "question" :"What is the national bird of India?",
+     "choices" : ["Peacock","Sparrow","Pigeon","Crow"]
+
+    },
+
+    {
+     "question": "Who is the Prime Minister of India?",
+     "choices" : ["Amit Shah","Rahul Gandhi","Narender Modi", "Sonia Gandhi"]
+
+    },
+
+    {
+        "question":"Who is the chief minister of Delhi?",
+        "choices": ["Kapil Sibbal","Arvind Kejriwal","Manish Sisodia","Rahul Gandhi"]
+    },
+
+    {
+     
+        "question": "Who won the IPL 2023?",
+        "choices": ["Blore","Punjab","Kolkatta","Chennai"]
+
+    },
+
+    {
+
+        "question": "Who is the captain of Indian Cricket Team?",
+        "choices": ["Rahul Dravid","Virat Kohli","Sachin Tendulkar","Saurav Ganguly"]
+    }
+
+]
+
+}
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
